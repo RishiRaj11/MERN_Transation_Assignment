@@ -10,12 +10,12 @@ const Dashboard = () => {
       <div>
         <TransactionsTable />
       </div>
-      {/* <div>
+      <div>
         <BarChartComponent />
       </div>
       <div>
         <PieChartComponent />
-      </div> */}
+      </div>
     </div>
   );
 };

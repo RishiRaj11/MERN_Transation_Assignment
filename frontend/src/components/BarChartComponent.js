@@ -11,7 +11,7 @@ const BarChartComponent = () => {
   }, [month]);
 
   const fetchBarChartData = async () => {
-    const response = await axios.get('http://localhost:3000/bar-chart', {
+    const response = await axios.get('http://localhost:8000/api/barchart', {
       params: { month }
     });
     setData(response.data);
